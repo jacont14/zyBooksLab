@@ -2,13 +2,13 @@ function drawTriangle(triangleSize) {
     document.write(triangleSize);
 }
 let i = 0
-let outputLine = "";
+let triangleSize = "";
 for(i = 0; i < 5; i++){
     for (let j = 0; j < i; j++){
     
-    outputLine += "*";
+    triangleSize += "*";
   }
-      drawTriangle(outputLine + "<br>")
-      outputLine = ""
+      drawTriangle(triangleSize + "<br>")
+      triangleSize = ""
 }
-   triangleSize(4);
+  
